@@ -137,8 +137,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 4982983}
   m_LocalRotation: {x: .70710659, y: 0, z: 0, w: -.707106948}
-  m_LocalPosition: {x: .5, y: .5, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 1}
+  m_LocalPosition: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 50, y: 50, z: 50}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!1 &592472176
@@ -201,7 +201,7 @@ Camera:
   near clip plane: .300000012
   far clip plane: 1000
   field of view: 60
-  orthographic: 0
+  orthographic: 1
   orthographic size: 100
   m_Depth: -1
   m_CullingMask:
@@ -217,8 +217,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 592472176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -.0457339883, y: -.460415363, z: .5}
+  m_LocalScale: {x: 5, y: 5, z: 5}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!114 &592472182
@@ -232,8 +232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4603a424d684b9f841900216c06ebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonOn: {fileID: 0}
-  buttonOff: {fileID: 0}
+  buttonOn: {fileID: 2800000, guid: 74199d0d3e51b4cb8824195d22989c8f, type: 3}
+  buttonOff: {fileID: 2800000, guid: a6ee2ecc9840243c9a19f6397b73002b, type: 3}
 --- !u!1 &1713872547
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,14 +258,14 @@ GUITexture:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1713872547}
   m_Enabled: 1
-  m_Texture: {fileID: 2800000, guid: a51b35f1d0a4d4e53ad864a522ef784c, type: 3}
+  m_Texture: {fileID: 2800000, guid: 1f3d33fef2477497d95352a0778ac8ea, type: 3}
   m_Color: {r: .5, g: .5, b: .5, a: .5}
   m_PixelInset:
     serializedVersion: 2
-    x: -64
-    y: -29
-    width: 1146
-    height: 358
+    x: 300
+    y: 10
+    width: 360
+    height: 360
   m_LeftBorder: 0
   m_RightBorder: 0
   m_TopBorder: 0
@@ -278,7 +278,7 @@ Transform:
   m_GameObject: {fileID: 1713872547}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: .00999999978, y: .00999999978, z: .00999999978}
   m_Children: []
   m_Father: {fileID: 0}
 --- !u!114 &1713872550
@@ -292,5 +292,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d4603a424d684b9f841900216c06ebe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonOn: {fileID: 2800000, guid: 50f623c1906db4155abae4e440ff0c64, type: 3}
-  buttonOff: {fileID: 2800000, guid: a51b35f1d0a4d4e53ad864a522ef784c, type: 3}
+  buttonOn: {fileID: 2800000, guid: 1f3d33fef2477497d95352a0778ac8ea, type: 3}
+  buttonOff: {fileID: 2800000, guid: 653ac6a2a17664b0aa83ffa08cdd1fcb, type: 3}
