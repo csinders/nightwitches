@@ -2,6 +2,7 @@
 using System.Collections;
 
 public class AirplaneController : MonoBehaviour {
+<<<<<<< HEAD
 	
 	public float accelerationRate; //push up on keyboard buttons, how fast plane increase or decrease speed
 	public float glideRate;  //natural decrease that is constantly slowing down 
@@ -16,11 +17,27 @@ public class AirplaneController : MonoBehaviour {
 	// Use this for initialization
 	void Start() {
 		speed = 0.0f;  //this is at zero b/c of private float speed 
+=======
+
+	public float accelerationRate;
+	public float glideRate;	
+	public float heightFromSpeed;
+	public Camera mainCamera;
+  public GameObject bombPrefab;
+
+	private float speed;
+	private float targetCameraAltitude;
+
+	// Use this for initialization
+	void Start() {
+		speed = 0.0f;
+>>>>>>> e67aceb71bb2f28729e2b9ff835c3f5cc6d7a659
 		targetCameraAltitude = mainCamera.transform.position.y;
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate() {
+<<<<<<< HEAD
 		//get input from player into two variables 
 		var yaw = 2.0f * Input.GetAxis("Horizontal"); //gives input for LR arrows 
 		var acceleration = accelerationRate * Input.GetAxis("Vertical"); //gives input for Up Down arrows 
@@ -56,5 +73,48 @@ public class AirplaneController : MonoBehaviour {
 		var newSpeed = speed + (acceleration - glideRate) * Time.deltaTime;
 		return Mathf.Clamp(newSpeed, 0.0f, targetCameraAltitude);
 	
+=======
+		// Get input from player
+		var yaw = 2.0f * Input.GetAxis("Horizontal");
+		var acceleration = accelerationRate * Input.GetAxis("Vertical");
+
+		// Update the airplane's position and rotation
+		gameObject.transform.rotation = CalculateNewRotation(gameObject.transform.rotation, yaw);
+		gameObject.transform.position = CalculateNewPosition(gameObject.transform.position);
+
+		// Update the camera's position
+		mainCamera.transform.position = CalculateNewCameraPosition(gameObject.transform.position);
+
+		// Update the airplane's speed
+		speed = CalculateNewSpeed(acceleration);
+
+    // Create a bomb
+    if (Input.GetKeyDown("space")) {
+      var bomb = Object.Instantiate(bombPrefab) as GameObject;
+      bomb.transform.position = transform.position - Vector3.up;
+      bomb.rigidbody.velocity = speed * gameObject.transform.up;
+      Debug.Log(bomb.rigidbody.velocity);
+    }
+	}
+
+	Vector3 CalculateNewCameraPosition(Vector3 airplane) {
+		return new Vector3(airplane.x, targetCameraAltitude, airplane.z);
+	}
+
+	Vector3 CalculateNewPosition(Vector3 position) {
+		position += speed * gameObject.transform.up * Time.deltaTime;
+		position.y = heightFromSpeed * speed;
+		return position;
+	}
+
+	Quaternion CalculateNewRotation(Quaternion rotation, float yaw) {
+		var yawRotation = Quaternion.AngleAxis(yaw, Vector3.up);
+		return yawRotation * rotation;
+	}
+
+	float CalculateNewSpeed(float acceleration) {
+		var newSpeed = speed + (acceleration - glideRate) * Time.deltaTime;
+		return Mathf.Clamp(newSpeed, 0.0f, targetCameraAltitude);
+>>>>>>> e67aceb71bb2f28729e2b9ff835c3f5cc6d7a659
 	}
 }

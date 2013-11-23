@@ -303,7 +303,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 851755402}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< HEAD
   m_Script: {fileID: 11500000, guid: 6e68547ae22e845f09fdc4f5ebb145e7, type: 3}
+=======
+  m_Script: {fileID: 11500000, guid: d316511fea19d4b9baaea2f111e4511f, type: 3}
+>>>>>>> e67aceb71bb2f28729e2b9ff835c3f5cc6d7a659
   m_Name: 
   m_EditorClassIdentifier: 
   altitude: 1
@@ -397,6 +401,10 @@ MonoBehaviour:
   glideRate: 1
   heightFromSpeed: 1
   mainCamera: {fileID: 79072608}
+<<<<<<< HEAD
+=======
+  bombPrefab: {fileID: 100000, guid: d83ff6e91a8a84b58a49e6a36eea62a7, type: 2}
+>>>>>>> e67aceb71bb2f28729e2b9ff835c3f5cc6d7a659
 --- !u!1 &1325552962
 GameObject:
   m_ObjectHideFlags: 0
