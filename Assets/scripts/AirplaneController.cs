@@ -40,7 +40,6 @@ public class AirplaneController : MonoBehaviour {
       var bomb = Object.Instantiate(bombPrefab) as GameObject;
       bomb.transform.position = transform.position - Vector3.up;
       bomb.rigidbody.velocity = speed * gameObject.transform.up;
-      Debug.Log(bomb.rigidbody.velocity);
     }
 	}
 	

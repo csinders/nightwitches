@@ -17,7 +17,6 @@ public class PopulateTargets : MonoBehaviour {
 			target.transform.position = RandomPosition();
 
 		}
-	
 	}
 
 	//decides which shapes to return, it's arbitary 
