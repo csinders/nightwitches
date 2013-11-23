@@ -303,7 +303,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 851755402}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 469eae569fcff417ca757f047c33cc40, type: 3}
+  m_Script: {fileID: 11500000, guid: d316511fea19d4b9baaea2f111e4511f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   altitude: 1
@@ -393,11 +393,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c902f1ab990714e7ebd2db9502fb7ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cameraSmoothRate: .25
+  accelerationRate: 10
   glideRate: 1
   heightFromSpeed: 1
   mainCamera: {fileID: 79072608}
-  maximumAcceleration: 10
+  bombPrefab: {fileID: 100000, guid: d83ff6e91a8a84b58a49e6a36eea62a7, type: 2}
 --- !u!1 &1325552962
 GameObject:
   m_ObjectHideFlags: 0
