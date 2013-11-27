@@ -40,6 +40,10 @@ public class AirplaneController : MonoBehaviour {
       var bomb = Object.Instantiate(bombPrefab) as GameObject;
       bomb.transform.position = transform.position - Vector3.up;
       bomb.rigidbody.velocity = speed * gameObject.transform.up;
+      bomb.rigidbody.rotation = gameObject.transform.rotation;
+      Debug.Log("Clip length: " + bomb.GetComponent<AudioSource>().clip.length);
+      Debug.Log("Fall time: " + Mathf.Sqrt(2.0f * bomb.transform.position.y / -Physics.gravity.y));
+      bomb.GetComponent<AudioSource>().pitch = bomb.GetComponent<AudioSource>().clip.length / Mathf.Sqrt(2.0f * bomb.transform.position.y / -Physics.gravity.y);
     }
 	}
 	
