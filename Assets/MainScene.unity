@@ -236,6 +236,7 @@ GameObject:
   - 64: {fileID: 851755404}
   - 23: {fileID: 851755403}
   - 114: {fileID: 851755407}
+  - 114: {fileID: 851755408}
   m_Layer: 0
   m_Name: Ground
   m_TagString: Untagged
@@ -307,10 +308,23 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   altitude: 1
-  targetCount: 100
+  targetCount: 12
   circleTarget: {fileID: 100000, guid: 1d54b8e695efd40d8879671316c75052, type: 2}
   squareTarget: {fileID: 100000, guid: 83a8f73d9f00e4080bd8f6e4c426354e, type: 2}
   triangleTarget: {fileID: 100000, guid: c091918aac2da47eaa4164240d861d33, type: 2}
+--- !u!114 &851755408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 851755402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7b3191e9c79a4960babd05def30721f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  airplane: {fileID: 1094453749}
+  symbol: {fileID: 2800000, guid: 383dc2489f83947c8bef443bbbe55427, type: 3}
 --- !u!1 &1094453749
 GameObject:
   m_ObjectHideFlags: 0
