@@ -83,6 +83,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 168767715}
   - 132: {fileID: 168767714}
+  - 114: {fileID: 168767716}
   m_Layer: 0
   m_Name: 3Gui-Wanted
   m_TagString: Untagged
@@ -110,7 +111,7 @@ GUIText:
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &168767715
@@ -124,6 +125,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &168767716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 168767713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b09c24da0af4a29aa5fce9cc9269c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 5
 --- !u!1 &208800250
 GameObject:
   m_ObjectHideFlags: 0
@@ -705,6 +718,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1503123240}
   - 132: {fileID: 1503123239}
+  - 114: {fileID: 1503123241}
   m_Layer: 0
   m_Name: 2Gui-Brother
   m_TagString: Untagged
@@ -732,7 +746,7 @@ GUIText:
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &1503123240
@@ -746,6 +760,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1503123241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1503123238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b09c24da0af4a29aa5fce9cc9269c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 3
 --- !u!1 &1542601619
 GameObject:
   m_ObjectHideFlags: 0
@@ -959,6 +985,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 1870171087}
   - 132: {fileID: 1870171086}
+  - 114: {fileID: 1870171088}
   m_Layer: 0
   m_Name: 1Gui-Enlist
   m_TagString: Untagged
@@ -986,7 +1013,7 @@ GUIText:
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &1870171087
@@ -1000,6 +1027,18 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &1870171088
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1870171085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b09c24da0af4a29aa5fce9cc9269c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 1
 --- !u!1 &2041318095
 GameObject:
   m_ObjectHideFlags: 0
@@ -1009,6 +1048,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 2041318097}
   - 132: {fileID: 2041318096}
+  - 114: {fileID: 2041318098}
   m_Layer: 0
   m_Name: 4Gui-Plane
   m_TagString: Untagged
@@ -1036,7 +1076,7 @@ GUIText:
   m_FontStyle: 0
   m_Color:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_PixelCorrect: 1
   m_RichText: 1
 --- !u!4 &2041318097
@@ -1050,3 +1090,15 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
+--- !u!114 &2041318098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2041318095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79b09c24da0af4a29aa5fce9cc9269c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waitTime: 8
