@@ -5,11 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/start.unity
-  - enabled: 0
-    path: Assets/start.unity
   - enabled: 1
-    path: Assets/MainScene.unity
+    path: Assets/scenes/start.unity
+  - enabled: 0
+    path: Assets/scenes/start.unity
   - enabled: 1
-    path: Assets/nadezhda_cutscene.unity
+    path: Assets/scenes/MainScene.unity
