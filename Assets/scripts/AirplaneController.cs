@@ -30,6 +30,7 @@ public class AirplaneController : MonoBehaviour {
 		//update airplanes position and rotation
     gameObject.rigidbody2D.AddForce(acceleration * gameObject.transform.up);
     gameObject.rigidbody2D.AddTorque(-yaw);
+    gameObject.rigidbody2D.AddTorque(-0.01f * gameObject.rigidbody2D.angularVelocity);
 
     // Create a bomb
     if (Input.GetKeyDown("space")) {
