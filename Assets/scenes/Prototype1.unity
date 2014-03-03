@@ -109,6 +109,11 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 15400000, guid: eb86b7aed5a234ced9e65715b09dd6f1, type: 2}
+      propertyPath: m_TerrainData
+      value: 
+      objectReference: {fileID: 15600000, guid: ee87f57360b5446de9d5cc3e5106b406,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: eb86b7aed5a234ced9e65715b09dd6f1, type: 2}
   m_RootGameObject: {fileID: 1599491889}
@@ -140,7 +145,7 @@ TerrainCollider:
   m_GameObject: {fileID: 670382074}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 4444244d4042742b2990eafa281c28bb, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: ee87f57360b5446de9d5cc3e5106b406, type: 2}
   m_CreateTreeColliders: 1
 --- !u!114 &670382076
 MonoBehaviour:
@@ -154,7 +159,7 @@ MonoBehaviour:
   m_Script: {fileID: 12000, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TerrainData: {fileID: 15600000, guid: 4444244d4042742b2990eafa281c28bb, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: ee87f57360b5446de9d5cc3e5106b406, type: 2}
   m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -215,6 +220,11 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 15400000, guid: 3a0696615d2ae427dbf6577231cda70d, type: 2}
+      propertyPath: m_TerrainData
+      value: 
+      objectReference: {fileID: 15600000, guid: ee87f57360b5446de9d5cc3e5106b406,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3a0696615d2ae427dbf6577231cda70d, type: 2}
   m_RootGameObject: {fileID: 670382074}
@@ -335,6 +345,11 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 15400000, guid: dce36ac6f22454ea985a7d0bc1702fda, type: 2}
+      propertyPath: m_TerrainData
+      value: 
+      objectReference: {fileID: 15600000, guid: ee87f57360b5446de9d5cc3e5106b406,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dce36ac6f22454ea985a7d0bc1702fda, type: 2}
   m_RootGameObject: {fileID: 1464503928}
@@ -366,7 +381,7 @@ TerrainCollider:
   m_GameObject: {fileID: 1464503928}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 4444244d4042742b2990eafa281c28bb, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: ee87f57360b5446de9d5cc3e5106b406, type: 2}
   m_CreateTreeColliders: 1
 --- !u!114 &1464503930
 MonoBehaviour:
@@ -380,7 +395,7 @@ MonoBehaviour:
   m_Script: {fileID: 12000, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TerrainData: {fileID: 15600000, guid: 4444244d4042742b2990eafa281c28bb, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: ee87f57360b5446de9d5cc3e5106b406, type: 2}
   m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
@@ -432,7 +447,7 @@ TerrainCollider:
   m_GameObject: {fileID: 1599491889}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_TerrainData: {fileID: 15600000, guid: 4444244d4042742b2990eafa281c28bb, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: ee87f57360b5446de9d5cc3e5106b406, type: 2}
   m_CreateTreeColliders: 1
 --- !u!114 &1599491891
 MonoBehaviour:
@@ -446,7 +461,7 @@ MonoBehaviour:
   m_Script: {fileID: 12000, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_TerrainData: {fileID: 15600000, guid: 4444244d4042742b2990eafa281c28bb, type: 2}
+  m_TerrainData: {fileID: 15600000, guid: ee87f57360b5446de9d5cc3e5106b406, type: 2}
   m_TreeDistance: 2000
   m_TreeBillboardDistance: 50
   m_TreeCrossFadeLength: 5
