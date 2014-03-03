@@ -16,6 +16,11 @@ public class AirplaneController : MonoBehaviour {
 		speed = 0.0f;
     previous_moving = false;
 	}
+
+  void OnTriggerEnter2D(){
+    GameObject.Destroy(gameObject);
+
+  }
 	
 	// Update is called once per frame
 	void FixedUpdate() {
