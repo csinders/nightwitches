@@ -46,14 +46,15 @@ public class SetupTerrain : MonoBehaviour {
 				right = Terrain2;
 
 			}
-		var leftTerrain = Object.Instantiate(left) as GameObject; //object.instantiate just returns but we want it as a GameObject so we can change its position
-		leftTerrain.transform.position = new Vector3(-999,0,0); 
 
-		var middleTerrain = Object.Instantiate(middle) as GameObject;
-		middleTerrain.transform.position = new Vector3(-333,0,0);
+		 //object.instantiate just returns but we want it as a GameObject so we can change its position
+		Debug.Log(Terrain1.transform.position);
 
-		var rightTerrain = Object.Instantiate(right) as GameObject;
-		rightTerrain.transform.position = new Vector3(333,0,0);
+		Terrain2.transform.position = new Vector3(-999,0,0); 
+		Terrain3.transform.position = new Vector3(-333,0,0);
+		Terrain1.transform.position = new Vector3(333,0,0);
+
+		Debug.Log(Terrain1.transform.position);
 	}
 	
 	// Update is called once per frame
