@@ -3142,7 +3142,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b69576e379d2941bd86323016c8a1eec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerPosition: 0
+  playerPosition: 1.5
   layers:
   - {fileID: 220152154}
   - {fileID: 685752080}

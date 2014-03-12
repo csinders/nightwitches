@@ -33,9 +33,9 @@ public class Region : MonoBehaviour {
 
   public void DoubleRegion(float playerPosition) {
     var region = RegionPlayerInhabits(playerPosition);
-    if (region == 1) {
+    if (region == 2) {
       russian *= 2;
-    } else if (region == 2) {
+    } else if (region == 1) {
       wilderness *= 2;
     } else {
       german *= 2;
