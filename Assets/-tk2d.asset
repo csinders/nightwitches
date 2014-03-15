@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aa7e23290fd04c13a7d6a0e0c4dbdfa, type: 3}
+  m_Name: -tk2d
+  m_EditorClassIdentifier: 
+  version: 3
+  spriteAnimationIndex:
+  - assetGUID: ef24451cc0edb4b758eff11b680e6ce4
+    dataGUID: 
+    managed: 0
+    loadable: 0
+  fontIndex: []
+  spriteCollectionIndex:
+  - name: tree_collection
+    spriteCollectionGUID: 5aee400c81ee641a4a7483a41f43dc11
+    spriteCollectionDataGUID: 200abf4e71acf4106ae653226ebe5fdf
+    spriteNames:
+    - t3
+    - t2
+    - t1
+    - t4
+    spriteTextureGUIDs:
+    - 30094263148884111af8c8c49c4e475c
+    - b0d4955498a2648c89bc793156e31b25
+    - 150fb795e5e0a493e97e50a88be81b8b
+    - 11e22f8d9baf04e5fad8cd1d23721da1
+    spriteTextureTimeStamps:
+    - 1394822258
+    - 1394822258
+    - 1394822258
+    - 1394822258
+    managedSpriteCollection: 0
+    loadable: 0
+    assetName: 
+    version: 3
